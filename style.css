@@ -1,0 +1,20 @@
+body{
+    background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%, rgb(245, 0, 0) 0%, rgb(241, 2, 2) 100.2%);
+    overflow: hidden;
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 60px;
+    white-space: nowrap;
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+    .container{
+        font-size: 40px;
+    }
+}
